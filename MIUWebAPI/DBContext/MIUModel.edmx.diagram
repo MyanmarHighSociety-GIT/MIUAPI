@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="fc45e9f1fc1b42ec9e1d364d611eb4b2" Name="Diagram1" ZoomLevel="67">
+        <EntityTypeShape EntityType="MIUModel.C__MigrationHistory" Width="1.5" PointX="7.75" PointY="8.75" />
+        <EntityTypeShape EntityType="MIUModel.AccessorComment" Width="1.5" PointX="6" PointY="67.125" />
+        <EntityTypeShape EntityType="MIUModel.AccessorCommentDetail" Width="1.5" PointX="8.25" PointY="68.75" />
+        <EntityTypeShape EntityType="MIUModel.AlumniRegister" Width="1.5" PointX="5.75" PointY="17.75" />
+        <EntityTypeShape EntityType="MIUModel.Announcement" Width="1.5" PointX="14.75" PointY="16" />
+        <EntityTypeShape EntityType="MIUModel.AnnouncementVisibility" Width="1.5" PointX="17" PointY="17" />
+        <EntityTypeShape EntityType="MIUModel.AspNetRole" Width="1.5" PointX="0.75" PointY="7.375" />
+        <EntityTypeShape EntityType="MIUModel.AspNetUserAuthentication" Width="1.5" PointX="5.25" PointY="6.5" />
+        <EntityTypeShape EntityType="MIUModel.AspNetUserClaim" Width="1.5" PointX="5.25" PointY="12.125" />
+        <EntityTypeShape EntityType="MIUModel.AspNetUserLogin" Width="1.5" PointX="5.25" PointY="14.875" />
+        <EntityTypeShape EntityType="MIUModel.AspNetUser" Width="1.5" PointX="3" PointY="9.375" />
+        <EntityTypeShape EntityType="MIUModel.Assignment" Width="1.5" PointX="15.75" PointY="79.75" />
+        <EntityTypeShape EntityType="MIUModel.AssignmentBackup" Width="1.5" PointX="3.75" PointY="1" />
+        <EntityTypeShape EntityType="MIUModel.AssignmentBackupDetail" Width="1.5" PointX="6" PointY="1" />
+        <EntityTypeShape EntityType="MIUModel.AssignmentBackupUser" Width="1.5" PointX="3" PointY="97.75" />
+        <EntityTypeShape EntityType="MIUModel.AssignmentCriteria" Width="1.5" PointX="15.75" PointY="101" />
+        <EntityTypeShape EntityType="MIUModel.AssignmentCriteriaDetail" Width="1.5" PointX="18" PointY="101" />
+        <EntityTypeShape EntityType="MIUModel.AssignmentSubmission" Width="1.5" PointX="9" PointY="62.375" />
+        <EntityTypeShape EntityType="MIUModel.AssignmentSubmissionDetail" Width="1.5" PointX="11.25" PointY="80.25" />
+        <EntityTypeShape EntityType="MIUModel.Attendance" Width="1.5" PointX="3" PointY="57.125" />
+        <EntityTypeShape EntityType="MIUModel.AttendanceTotal" Width="1.5" PointX="15.75" PointY="83.125" />
+        <EntityTypeShape EntityType="MIUModel.AuditLog" Width="1.5" PointX="0.75" PointY="18.75" />
+        <EntityTypeShape EntityType="MIUModel.BatchDetail" Width="1.5" PointX="11.25" PointY="57.375" />
+        <EntityTypeShape EntityType="MIUModel.BatchPaymentInfo" Width="1.5" PointX="5.25" PointY="51.875" />
+        <EntityTypeShape EntityType="MIUModel.CityInfo" Width="1.5" PointX="12.75" PointY="0.75" />
+        <EntityTypeShape EntityType="MIUModel.CountryInfo" Width="1.5" PointX="12.75" PointY="12.75" />
+        <EntityTypeShape EntityType="MIUModel.Course" Width="1.5" PointX="0.75" PointY="73.25" />
+        <EntityTypeShape EntityType="MIUModel.Education" Width="1.5" PointX="3" PointY="107.625" />
+        <EntityTypeShape EntityType="MIUModel.Enquiry" Width="1.5" PointX="3" PointY="111" />
+        <EntityTypeShape EntityType="MIUModel.Event" Width="1.5" PointX="9.75" PointY="16" />
+        <EntityTypeShape EntityType="MIUModel.EventCalendar" Width="1.5" PointX="14.75" PointY="5.125" />
+        <EntityTypeShape EntityType="MIUModel.EventCalendarOrganizer" Width="1.5" PointX="17" PointY="12" />
+        <EntityTypeShape EntityType="MIUModel.EventCalendarPhoto" Width="1.5" PointX="17" PointY="1.5" />
+        <EntityTypeShape EntityType="MIUModel.EventCalendarReact" Width="1.5" PointX="17" PointY="8.625" />
+        <EntityTypeShape EntityType="MIUModel.EventCalendarSpeaker" Width="1.5" PointX="17" PointY="5" />
+        <EntityTypeShape EntityType="MIUModel.EventDetail" Width="1.5" PointX="12" PointY="16.875" />
+        <EntityTypeShape EntityType="MIUModel.FavoriteList" Width="1.5" PointX="19.75" PointY="0.75" />
+        <EntityTypeShape EntityType="MIUModel.FeedBack" Width="1.5" PointX="13.5" PointY="72.125" />
+        <EntityTypeShape EntityType="MIUModel.InstallmentPlan" Width="1.5" PointX="5.25" PointY="89.375" />
+        <EntityTypeShape EntityType="MIUModel.InstallmentPlanDetail" Width="1.5" PointX="7.5" PointY="89" />
+        <EntityTypeShape EntityType="MIUModel.IVComment" Width="1.5" PointX="14.25" PointY="57.5" />
+        <EntityTypeShape EntityType="MIUModel.IvNoti" Width="1.5" PointX="11.25" PointY="86.25" />
+        <EntityTypeShape EntityType="MIUModel.JobPosition" Width="1.5" PointX="19.75" PointY="3.75" />
+        <EntityTypeShape EntityType="MIUModel.LeadCourse" Width="1.5" PointX="19.75" PointY="11.75" />
+        <EntityTypeShape EntityType="MIUModel.LeadNotification" Width="1.5" PointX="6" PointY="48.125" />
+        <EntityTypeShape EntityType="MIUModel.LearningOutcome" Width="1.5" PointX="13.5" PointY="101" />
+        <EntityTypeShape EntityType="MIUModel.LectureNoti" Width="1.5" PointX="14.25" PointY="67.625" />
+        <EntityTypeShape EntityType="MIUModel.ManagementComment" Width="1.5" PointX="11.25" PointY="62.5" />
+        <EntityTypeShape EntityType="MIUModel.ManagementResourceFile" Width="1.5" PointX="11.75" PointY="19.75" />
+        <EntityTypeShape EntityType="MIUModel.MangNoti" Width="1.5" PointX="11.25" PointY="83.375" />
+        <EntityTypeShape EntityType="MIUModel.ModuleDetail" Width="1.5" PointX="6" PointY="63.875" />
+        <EntityTypeShape EntityType="MIUModel.News" Width="1.5" PointX="10" PointY="3.75" />
+        <EntityTypeShape EntityType="MIUModel.NewsCategory" Width="1.5" PointX="7.75" PointY="4.375" />
+        <EntityTypeShape EntityType="MIUModel.NewsContent" Width="1.5" PointX="12.25" PointY="6.75" />
+        <EntityTypeShape EntityType="MIUModel.NewsfeedVisibility" Width="1.5" PointX="10" PointY="0.75" />
+        <EntityTypeShape EntityType="MIUModel.NewsViewer" Width="1.5" PointX="19.75" PointY="15.75" />
+        <EntityTypeShape EntityType="MIUModel.NewsVisibility" Width="1.5" PointX="12.25" PointY="3.625" />
+        <EntityTypeShape EntityType="MIUModel.Note" Width="1.5" PointX="3" PointY="118.875" />
+        <EntityTypeShape EntityType="MIUModel.Notification" Width="1.5" PointX="3.75" PointY="47.25" />
+        <EntityTypeShape EntityType="MIUModel.NotificationType" Width="1.5" PointX="1.5" PointY="48.25" />
+        <EntityTypeShape EntityType="MIUModel.NotiVisibility" Width="1.5" PointX="6" PointY="60" />
+        <EntityTypeShape EntityType="MIUModel.Payment" Width="1.5" PointX="7.5" PointY="73.25" />
+        <EntityTypeShape EntityType="MIUModel.RecommendedEbook" Width="1.5" PointX="20.75" PointY="83.5" />
+        <EntityTypeShape EntityType="MIUModel.Remodule" Width="1.5" PointX="5.25" PointY="72.125" />
+        <EntityTypeShape EntityType="MIUModel.RemoduleDetail" Width="1.5" PointX="10.5" PointY="75.75" />
+        <EntityTypeShape EntityType="MIUModel.ResultReportIssue" Width="1.5" PointX="10.5" PointY="70.375" />
+        <EntityTypeShape EntityType="MIUModel.Room" Width="1.5" PointX="13.5" PointY="88.875" />
+        <EntityTypeShape EntityType="MIUModel.Scholarship" Width="1.5" PointX="5.25" PointY="55.375" />
+        <EntityTypeShape EntityType="MIUModel.ScholarshipDetail" Width="1.5" PointX="8.5" PointY="58.25" />
+        <EntityTypeShape EntityType="MIUModel.StateInfo" Width="1.5" PointX="16.75" PointY="19.75" />
+        <EntityTypeShape EntityType="MIUModel.StudentNoti" Width="1.5" PointX="14.25" PointY="63.75" />
+        <EntityTypeShape EntityType="MIUModel.StudyResource" Width="1.5" PointX="18.5" PointY="81.75" />
+        <EntityTypeShape EntityType="MIUModel.StudyResourceDetail" Width="1.5" PointX="20.75" PointY="79.875" />
+        <EntityTypeShape EntityType="MIUModel.Subscribtion" Width="1.5" PointX="3" PointY="68.75" />
+        <EntityTypeShape EntityType="MIUModel.SystemModule" Width="1.5" PointX="1.5" PointY="1.25" />
+        <EntityTypeShape EntityType="MIUModel.SystemModulePermission" Width="1.5" PointX="3" PointY="6" />
+        <EntityTypeShape EntityType="MIUModel.SystemSubModule" Width="1.5" PointX="0.75" PointY="4" />
+        <EntityTypeShape EntityType="MIUModel.SystemSubModuleAction" Width="1.5" PointX="3" PointY="15.25" />
+        <EntityTypeShape EntityType="MIUModel.SystemTimeTable" Width="1.5" PointX="19.75" PointY="18.75" />
+        <EntityTypeShape EntityType="MIUModel.Template" Width="1.5" PointX="0.75" PointY="54.5" />
+        <EntityTypeShape EntityType="MIUModel.TemplateDetail" Width="1.5" PointX="11.25" PointY="94.75" />
+        <EntityTypeShape EntityType="MIUModel.TemplateDetailSub" Width="1.5" PointX="13.5" PointY="92" />
+        <EntityTypeShape EntityType="MIUModel.Term" Width="1.5" PointX="5.25" PointY="83" />
+        <EntityTypeShape EntityType="MIUModel.TermDetail" Width="1.5" PointX="13.5" PointY="78" />
+        <EntityTypeShape EntityType="MIUModel.TimeSetting" Width="1.5" PointX="7.5" PointY="99.125" />
+        <EntityTypeShape EntityType="MIUModel.TimeTableDetail" Width="1.5" PointX="15.75" PointY="88" />
+        <EntityTypeShape EntityType="MIUModel.TodayQuote" Width="1.5" PointX="7.75" PointY="20.75" />
+        <EntityTypeShape EntityType="MIUModel.UploadFile" Width="1.5" PointX="5.25" PointY="104.25" />
+        <EntityTypeShape EntityType="MIUModel.UploadFolder" Width="1.5" PointX="3" PointY="104.125" />
+        <EntityTypeShape EntityType="MIUModel.UserDetail" Width="1.5" PointX="13.75" PointY="20.75" />
+        <EntityTypeShape EntityType="MIUModel.WorkingExperience" Width="1.5" PointX="3" PointY="115.75" />
+        <EntityTypeShape EntityType="MIUModel.NewsNoti" Width="1.5" PointX="12.25" PointY="26.375" />
+        <EntityTypeShape EntityType="MIUModel.vProgramPlan" Width="1.5" PointX="21.75" PointY="0.75" />
+        <AssociationConnector Association="MIUModel.FK_AccessorComment_Assignment" />
+        <AssociationConnector Association="MIUModel.FK_AccessorCommentDetail_AccessorComment" />
+        <AssociationConnector Association="MIUModel.FK_AnnouncementVisibility_Announcement" />
+        <AssociationConnector Association="MIUModel.FK_SystemModulePermission_AspNetRoles" />
+        <AssociationConnector Association="MIUModel.FK_AspNetUserAuthentication_AspNetUserAuthentication" />
+        <AssociationConnector Association="MIUModel.FK_dbo_AspNetUserClaims_dbo_AspNetUsers_UserId" />
+        <AssociationConnector Association="MIUModel.FK_dbo_AspNetUserLogins_dbo_AspNetUsers_UserId" />
+        <AssociationConnector Association="MIUModel.FK_Assignment_TermDetail" />
+        <AssociationConnector Association="MIUModel.FK_AssignmentSubmission_Assignment" />
+        <AssociationConnector Association="MIUModel.FK_AssignmentBackupDetail_AssignmentBackup" />
+        <AssociationConnector Association="MIUModel.FK_AssignmentCriteria_LearningOutcome" />
+        <AssociationConnector Association="MIUModel.FK_AssignmentCriteriaDetail_AssignmentCriteria" />
+        <AssociationConnector Association="MIUModel.FK_AssignmentDetail_Assignment" />
+        <AssociationConnector Association="MIUModel.FK_IVComment_Assignment" />
+        <AssociationConnector Association="MIUModel.FK_IvNoti_AssignmentSubmission" />
+        <AssociationConnector Association="MIUModel.FK_LectureNoti_AssignmentSubmission" />
+        <AssociationConnector Association="MIUModel.FK_ManagementComment_AssignmentSubmission" />
+        <AssociationConnector Association="MIUModel.FK_MangNoti_AssignmentSubmission" />
+        <AssociationConnector Association="MIUModel.FK_StudentNoti_AssignmentSubmission" />
+        <AssociationConnector Association="MIUModel.FK_Attendance_Term" />
+        <AssociationConnector Association="MIUModel.FK_Attendance_TermDetail" />
+        <AssociationConnector Association="MIUModel.FK_Attendance_TimeTableDetail" />
+        <AssociationConnector Association="MIUModel.FK_AttendanceTotal_TermDetail" />
+        <AssociationConnector Association="MIUModel.FK_Course_Course" />
+        <AssociationConnector Association="MIUModel.FK_ModuleDetail_Course" />
+        <AssociationConnector Association="MIUModel.FK_Remodule_Course" />
+        <AssociationConnector Association="MIUModel.FK_StudyResource_Course" />
+        <AssociationConnector Association="MIUModel.FK_Template_Course" />
+        <AssociationConnector Association="MIUModel.FK_EventDetail_Event" />
+        <AssociationConnector Association="MIUModel.FK_EventCalendarOrganizer_EventCalendar" />
+        <AssociationConnector Association="MIUModel.FK_EventCalendarPhoto_EventCalendar" />
+        <AssociationConnector Association="MIUModel.FK_EventCalendarReact_EventCalendar" />
+        <AssociationConnector Association="MIUModel.FK_EventCalendarSpeaker_EventCalendar" />
+        <AssociationConnector Association="MIUModel.FK_FeedBack_Term" />
+        <AssociationConnector Association="MIUModel.FK_InstallmentPlanDetail_InstallmentPlanDetail" />
+        <AssociationConnector Association="MIUModel.FK_LeadNotification_LeadNotification" />
+        <AssociationConnector Association="MIUModel.FK_LectureNoti_TermDetail" />
+        <AssociationConnector Association="MIUModel.FK_News_NewsCategory" />
+        <AssociationConnector Association="MIUModel.FK_NewsContent_News" />
+        <AssociationConnector Association="MIUModel.FK_NewsNoti_News" />
+        <AssociationConnector Association="MIUModel.FK_NewsVisibility_News" />
+        <AssociationConnector Association="MIUModel.FK_NewsVisibility_NewsfeedVisibility" />
+        <AssociationConnector Association="MIUModel.FK_IsSeenNotification_Notification" />
+        <AssociationConnector Association="MIUModel.FK_NewsNoti_Notification" />
+        <AssociationConnector Association="MIUModel.FK_Notification_NotificationType" />
+        <AssociationConnector Association="MIUModel.FK_subscribtion_Notification" />
+        <AssociationConnector Association="MIUModel.FK_subscribtion_NotificationType" />
+        <AssociationConnector Association="MIUModel.FK_Payment_Term" />
+        <AssociationConnector Association="MIUModel.FK_RecommendedEbooks_StudyResource" />
+        <AssociationConnector Association="MIUModel.FK_RemoduleDetail_Remodule" />
+        <AssociationConnector Association="MIUModel.FK_ResultReportIssue_Term" />
+        <AssociationConnector Association="MIUModel.FK_ResultReportIssue_TermDetail" />
+        <AssociationConnector Association="MIUModel.FK_TimeTableDetail_Room" />
+        <AssociationConnector Association="MIUModel.FK_ScholarshipDetail_Scholarship" />
+        <AssociationConnector Association="MIUModel.FK_StudyResourceDetails_Module" />
+        <AssociationConnector Association="MIUModel.FK_SystemSubModule_SystemModule" />
+        <AssociationConnector Association="MIUModel.FK_SystemModulePermission_SystemSubModule" />
+        <AssociationConnector Association="MIUModel.FK_SystemSubModuleAction_SystemSubModuleAction" />
+        <AssociationConnector Association="MIUModel.FK_TemplateDetail_Template" />
+        <AssociationConnector Association="MIUModel.FK_TemplateDetailSub_TemplateDetail" />
+        <AssociationConnector Association="MIUModel.FK_TermDetail_Term" />
+        <AssociationConnector Association="MIUModel.FK_TimeSetting_Term" />
+        <AssociationConnector Association="MIUModel.FK_TimeTableDetail_TermDetail" />
+        <AssociationConnector Association="MIUModel.FK_TimeTableDetail_TimeSetting" />
+        <AssociationConnector Association="MIUModel.FK_File_Folder" />
+        <AssociationConnector Association="MIUModel.AspNetUserRoles" />
+        <EntityTypeShape EntityType="MIUModel.MIUResourceFolderDetail" Width="1.5" PointX="10" PointY="24.375" />
+        <EntityTypeShape EntityType="MIUModel.TwoFactorAuthenticatedUser" Width="1.5" PointX="5.25" PointY="24.375" />
+        <AssociationConnector Association="MIUModel.FK_TwoFactorAuthenticatedUser_AspNetUsers" />
+        <EntityTypeShape EntityType="MIUModel.EmergencyContact" Width="1.5" PointX="3" PointY="89.5" />
+        <EntityTypeShape EntityType="MIUModel.FeedbackReason" Width="1.5" PointX="22.375" PointY="8.5" />
+        <EntityTypeShape EntityType="MIUModel.ResetPasswordTime" Width="1.5" PointX="3" PointY="86.375" />
+        <EntityTypeShape EntityType="MIUModel.DownloadHistory" Width="1.5" PointX="15.25" PointY="24.75" />
+        <EntityTypeShape EntityType="MIUModel.MICResourceFile" Width="1.5" PointX="7.75" PointY="24.125" />
+        <AssociationConnector Association="MIUModel.FK_DownloadHistory_MICResourceFiles" />
+        <AssociationConnector Association="MIUModel.FK_DownloadHistory_MIUResourceFolderDetail" />
+        <AssociationConnector Association="MIUModel.FK_MIUResourceFolderDetail_MICResourceFiles" />
+        <EntityTypeShape EntityType="MIUModel.StudentFeedback" Width="1.5" PointX="24.625" PointY="7.875" />
+        <AssociationConnector Association="MIUModel.FK_SutdentFeedback_FeedbackReason" />
+        <EntityTypeShape EntityType="MIUModel.Holiday" Width="1.5" PointX="7.375" PointY="11.75" />
+        <EntityTypeShape EntityType="MIUModel.Batch" Width="1.5" PointX="8" PointY="78.375" />
+        <EntityTypeShape EntityType="MIUModel.Module" Width="1.5" PointX="3.75" PointY="77.5" />
+        <AssociationConnector Association="MIUModel.FK_Batch_Course" />
+        <AssociationConnector Association="MIUModel.FK_Batch_Template" />
+        <AssociationConnector Association="MIUModel.FK_BatchDetail_Batch" />
+        <AssociationConnector Association="MIUModel.FK_BatchPaymentInfo_Batch" />
+        <AssociationConnector Association="MIUModel.FK_InstallmentPlan_Batch" />
+        <AssociationConnector Association="MIUModel.FK_Payment_Batch" />
+        <AssociationConnector Association="MIUModel.FK_Remodule_Batch" />
+        <AssociationConnector Association="MIUModel.FK_ResultReportIssue_Batch" />
+        <AssociationConnector Association="MIUModel.FK_Scholarship_Batch" />
+        <AssociationConnector Association="MIUModel.FK_Term_Batch" />
+        <AssociationConnector Association="MIUModel.FK_LearningOutcome_Module" />
+        <AssociationConnector Association="MIUModel.FK_ModuleDetail_Module" />
+        <AssociationConnector Association="MIUModel.FK_RemoduleDetail_Module" />
+        <AssociationConnector Association="MIUModel.FK_ResultReportIssue_Module" />
+        <AssociationConnector Association="MIUModel.FK_StudyResource_Module" />
+        <AssociationConnector Association="MIUModel.FK_TemplateDetailSub_Module" />
+        <AssociationConnector Association="MIUModel.FK_TermDetail_Module" />
+        <EntityTypeShape EntityType="MIUModel.WebNotification" Width="1.5" PointX="16.25" PointY="75.125" />
+        <AssociationConnector Association="MIUModel.FK_WebNotification_Batch" />
+        <AssociationConnector Association="MIUModel.FK_WebNotification_Course" />
+        <EntityTypeShape EntityType="MIUModel.EmailBroadcast" Width="1.5" PointX="0.75" PointY="69" />
+        <EntityTypeShape EntityType="MIUModel.EmailBroadcastUser" Width="1.5" PointX="3" PointY="83.625" />
+        <EntityTypeShape EntityType="MIUModel.LeadDoc" Width="1.5" PointX="6" PointY="41.25" />
+        <EntityTypeShape EntityType="MIUModel.ParentStudent" Width="1.5" PointX="3" PointY="94" />
+        <EntityTypeShape EntityType="MIUModel.PaymentSetting" Width="1.5" PointX="17.25" PointY="70.5" />
+        <EntityTypeShape EntityType="MIUModel.PaymentSettingDetail" Width="1.5" PointX="21.5" PointY="76" />
+        <AssociationConnector Association="MIUModel.FK_MIUPaymentSetting_Batch" />
+        <AssociationConnector Association="MIUModel.FK_MIUPaymentSetting_Course" />
+        <AssociationConnector Association="MIUModel.FK_EmailBroadcastUser_EmailBroadcast" />
+        <AssociationConnector Association="MIUModel.FK_PaymentSettingDetail_MIUPaymentSetting" />
+        <AssociationConnector Association="MIUModel.FK_PaymentSettingDetail_Term" />
+        <EntityTypeShape EntityType="MIUModel.WebNotificationDetail" Width="1.5" PointX="18.5" PointY="66.75" />
+        <AssociationConnector Association="MIUModel.FK_WebNotificationDetail_WebNotification" />
+        <EntityTypeShape EntityType="MIUModel.MIUPayment" Width="1.5" PointX="18.625" PointY="86.625" />
+        <AssociationConnector Association="MIUModel.FK_MIUPayment_Batch" />
+        <AssociationConnector Association="MIUModel.FK_MIUPayment_Course" />
+        <EntityTypeShape EntityType="MIUModel.MIUPaymentDetail" Width="1.5" PointX="20.875" PointY="87.5" />
+        <AssociationConnector Association="MIUModel.FK_MIUPaymentDetail_MIUPayment" />
+        <AssociationConnector Association="MIUModel.FK_MIUPaymentDetail_Term" />
+        <EntityTypeShape EntityType="MIUModel.RemodulePayment" Width="1.5" PointX="18.625" PointY="91" />
+        <AssociationConnector Association="MIUModel.FK_RemodulePayment_Batch" />
+        <AssociationConnector Association="MIUModel.FK_RemodulePayment_Batch1" />
+        <AssociationConnector Association="MIUModel.FK_RemodulePayment_Course" />
+        <AssociationConnector Association="MIUModel.FK_RemodulePayment_Module" />
+        <EntityTypeShape EntityType="MIUModel.LeadActivity" Width="1.5" PointX="18" PointY="24.25" />
+        <AssociationConnector Association="MIUModel.FK_LeadActivity_EventCalendar" />
+        <EntityTypeShape EntityType="MIUModel.MobileDeviceToken" Width="1.5" PointX="3" PointY="100.75" />
+        <EntityTypeShape EntityType="MIUModel.Lead" Width="1.5" PointX="3" PointY="122.75" />
+        <AssociationConnector Association="MIUModel.FK_LeadActivity_Lead" />
+        <AssociationConnector Association="MIUModel.FK_LeadDoc_Lead" />
+        <AssociationConnector Association="MIUModel.FK_LeadNotification_Lead" />
+        <EntityTypeShape EntityType="MIUModel.FamilyMember" Width="1.5" PointX="5.25" PointY="108.375" />
+        <AssociationConnector Association="MIUModel.FK_FamilyMember_Lead" />
+        <EntityTypeShape EntityType="MIUModel.User" Width="1.5" PointX="0.75" PointY="86.25" />
+        <AssociationConnector Association="MIUModel.FK_AccessorComment_User" />
+        <AssociationConnector Association="MIUModel.FK_AssignmentBackupUser_User" />
+        <AssociationConnector Association="MIUModel.FK_AssignmentSubmission_User" />
+        <AssociationConnector Association="MIUModel.FK_Attendance_User" />
+        <AssociationConnector Association="MIUModel.FK_Batch_User" />
+        <AssociationConnector Association="MIUModel.FK_BatchDetail_OffUser" />
+        <AssociationConnector Association="MIUModel.FK_BatchDetail_OnUser" />
+        <AssociationConnector Association="MIUModel.FK_BatchDetail_User" />
+        <AssociationConnector Association="MIUModel.FK_Education_User" />
+        <AssociationConnector Association="MIUModel.FK_EmailBroadcastUser_EmailBroadcastUser" />
+        <AssociationConnector Association="MIUModel.FK_EmergencyContact_User" />
+        <AssociationConnector Association="MIUModel.FK_Enquiry_User" />
+        <AssociationConnector Association="MIUModel.FK_FamilyMember_User" />
+        <AssociationConnector Association="MIUModel.FK_FeedBack_User" />
+        <AssociationConnector Association="MIUModel.FK_IVComment_User" />
+        <AssociationConnector Association="MIUModel.FK_Lead_User" />
+        <AssociationConnector Association="MIUModel.FK_LectureNoti_User" />
+        <AssociationConnector Association="MIUModel.FK_ManagementComment_User" />
+        <AssociationConnector Association="MIUModel.FK_MIUPayment_User" />
+        <AssociationConnector Association="MIUModel.FK_MobileDeviceToken_User" />
+        <AssociationConnector Association="MIUModel.FK_ModuleDetail_User" />
+        <AssociationConnector Association="MIUModel.FK_Note_User" />
+        <AssociationConnector Association="MIUModel.FK_Note_User1" />
+        <AssociationConnector Association="MIUModel.FK_IsSeenNotification_User" />
+        <AssociationConnector Association="MIUModel.FK_ParentStudent_User" />
+        <AssociationConnector Association="MIUModel.FK_ParentStudent_User1" />
+        <AssociationConnector Association="MIUModel.FK_Payment_User" />
+        <AssociationConnector Association="MIUModel.FK_Remodule_User" />
+        <AssociationConnector Association="MIUModel.FK_RemodulePayment_User" />
+        <AssociationConnector Association="MIUModel.FK_Table_1_User" />
+        <AssociationConnector Association="MIUModel.FK_ResultReportIssue_User" />
+        <AssociationConnector Association="MIUModel.FK_ScholarshipDetail_User" />
+        <AssociationConnector Association="MIUModel.FK_StudentNoti_User" />
+        <AssociationConnector Association="MIUModel.FK_subscribtion_User" />
+        <AssociationConnector Association="MIUModel.FK_TermDetail_User" />
+        <AssociationConnector Association="MIUModel.FK_TermDetail_User1" />
+        <AssociationConnector Association="MIUModel.FK_TermDetail_User2" />
+        <AssociationConnector Association="MIUModel.FK_UploadFolder_User" />
+        <AssociationConnector Association="MIUModel.FK_Working_User" />
+        </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
