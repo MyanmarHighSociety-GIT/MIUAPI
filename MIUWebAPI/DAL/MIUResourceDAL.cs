@@ -81,7 +81,8 @@ namespace MIUWebAPI.DAL
                             MIUResourceInfo info = new MIUResourceInfo();
 
                             PropertyCopier<MICResourceFile, MIUResourceInfo>.Copy(data, info);
-                            info.FilePath = MIUFileServer.GetFileUrl("Resources/MIUResource", data.Name);
+                            //info.FilePath = MIUFileServer.GetFileUrl("Resources/MIUResource", data.Name);
+                            info.FilePath = MIUFileServer.GetFileUrl("Resource/MICResources", data.Name);
                             if (data.IsFolder == 1)
                             {
                                 info.FileCount = db.MIUResourceFolderDetails.Where(x => x.MIUResourceID == data.ID).Count();
