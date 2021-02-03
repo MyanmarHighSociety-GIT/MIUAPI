@@ -84,8 +84,8 @@ namespace MIUWebAPI.DAL
                             {
                                 StudyResourceDetailInfo srinfo = new StudyResourceDetailInfo();
                                 PropertyCopier<StudyResourceDetail, StudyResourceDetailInfo>.Copy(StudyResourceDetail, srinfo);
+                                srinfo.Name = MIUFileServer.GetFileUrl("Resource/"+ moduleID, srinfo.Name);
                                 SRInfoList.Add(srinfo);
-                                srinfo.Name = MIUFileServer.GetFileUrl("Resource/StudyResource", srinfo.Name);
                             }
 
                             List<RecommendedEbook> recommendedEbooks = studyResource.RecommendedEbooks.ToList();
@@ -93,7 +93,7 @@ namespace MIUWebAPI.DAL
                             {
                                 RecommendedEbookInfo bookinfo = new RecommendedEbookInfo();
                                 PropertyCopier<RecommendedEbook, RecommendedEbookInfo>.Copy(recommendedEbook, bookinfo);
-                                bookinfo.Name = MIUFileServer.GetFileUrl("Resource/StudyResource", bookinfo.Name);
+                                bookinfo.Name = MIUFileServer.GetFileUrl("Resource/"+ moduleID, bookinfo.Name);
                                 BookInfoList.Add(bookinfo);
                             }
                         }
